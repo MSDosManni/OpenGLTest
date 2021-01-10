@@ -1,0 +1,4 @@
+/data/Programming/Projects/Active/C++/NetTest/build/CMakeFiles/rebuild_cache.dir
+/data/Programming/Projects/Active/C++/NetTest/build/CMakeFiles/edit_cache.dir
+/data/Programming/Projects/Active/C++/NetTest/build/CMakeFiles/TCPServer.dir
+/data/Programming/Projects/Active/C++/NetTest/build/CMakeFiles/TCPClient.dir
