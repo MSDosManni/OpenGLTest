@@ -11,8 +11,8 @@ int main() {
     boost::asio::io_service io_service;
     tcp::socket socket(io_service);
 
-    socket.connect(tcp::endpoint( boost::asio::ip::address_v6::from_string("2a02:908:d7a:72c0:8f96:c8ea:4ec6:4ef2"), 1234));
-    // socket.connect(tcp::endpoint( boost::asio::ip::address::from_string("127.0.0.1"), 1234));
+    // socket.connect(tcp::endpoint( boost::asio::ip::address_v6::from_string("2a02:908:d7a:72c0:8f96:c8ea:4ec6:4ef2"), 1234));
+    socket.connect(tcp::endpoint( boost::asio::ip::address::from_string("127.0.0.1"), 1234));
 
     const string msg = "Hello from Client!\n";
 

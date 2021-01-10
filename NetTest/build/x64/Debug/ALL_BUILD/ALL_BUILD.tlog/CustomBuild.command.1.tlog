@@ -1,0 +1,10 @@
+^D:\PROGRAMMING\PROJECTS\ACTIVE\C++\GAMEDEVELOPMENT\NETTEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Programming/Projects/Active/C++/GameDevelopment/NetTest -BD:/Programming/Projects/Active/C++/GameDevelopment/NetTest/build --check-stamp-file D:/Programming/Projects/Active/C++/GameDevelopment/NetTest/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

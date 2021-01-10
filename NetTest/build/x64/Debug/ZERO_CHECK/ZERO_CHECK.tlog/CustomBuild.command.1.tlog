@@ -1,0 +1,10 @@
+^D:\PROGRAMMING\PROJECTS\ACTIVE\C++\GAMEDEVELOPMENT\NETTEST\BUILD\CMAKEFILES\53C3CE495052E328116C91CFEA718704\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Programming/Projects/Active/C++/GameDevelopment/NetTest -BD:/Programming/Projects/Active/C++/GameDevelopment/NetTest/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Programming/Projects/Active/C++/GameDevelopment/NetTest/build/TCPCommunication.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
